@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Background hitam */
+    color: #fff; /* Teks putih */
+    text-align: center;
+}
+
+header {
+    background-color: #1a1a1a; /* Header abu-abu gelap */
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Efek transisi */
+}
+
+.btn:hover {
+    background-color: #45a049; /* Warna hijau lebih gelap saat hover */
+    transform: scale(1.1); /* Membesarkan tombol saat hover */
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #1a1a1a;
+    color: white;
+}
